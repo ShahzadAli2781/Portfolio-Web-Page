@@ -1,6 +1,9 @@
-# Personal Portfolio 
+# Personal Portfolio - Shahzad Ali
 
 A responsive, single-page personal portfolio website built to showcase my academic background, skills, and professional experience as a Frontend Developer Intern.
+
+## 🚀 Live Demo
+*(You can add the link to your live hosted site here once deployed, e.g., GitHub Pages, Vercel, or Netlify)*
 
 ## 📖 About The Project
 
@@ -41,17 +44,20 @@ You only need a modern web browser (Chrome, Firefox, Safari, Edge) to view the w
 
 ### Installation
 1. Clone the repository:
-   ```
+   ```sh
    git clone https://github.com/your-username/your-repo-name.git
    ```
 2. Navigate to the project directory:
-   ```
+   ```sh
    cd your-repo-name
    ```
 3. Open `index.html` in your browser.
 
 ## 📫 Contact
 
-**Shahzad Ali** - [shahzad.ali@example.com]
+**Shahzad Ali** - [shahzad.ali@example.com](mailto:shahzad.ali@example.com)
+
+Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
+
 ---
 *Developed by Shahzad Ali - 2026*

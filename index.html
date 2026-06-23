@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Shahzad Ali</title>
+    <meta name="description" content="Portfolio of Shahzad Ali, Frontend Developer Intern at Codioro.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container nav-container">
+            <h1 class="logo">Personal Portfolio</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <h2>Hi, I'm <span class="highlight">Shahzad Ali</span></h2>
+                <p class="subtitle">Frontend Developer Intern & Computer Science Student</p>
+                <a href="#contact" class="btn primary-btn">Get In Touch</a>
+            </div>
+            <div class="background-shape"></div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>My name is <strong>Shahzad Ali</strong>. I am a student of Final year Computer Science at University of Layyah.</p>
+                        <p>I currently work with Codioro company as an Frontend Developer Intern. I am passionate about creating clean, user-friendly interfaces and applying my diverse skill set to build impactful solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">💻</div>
+                        <h3>Frontend Developer</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">📱</div>
+                        <h3>App Developer</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>UI/UX</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🤖</div>
+                        <h3>ML & AI & Python Learner</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">📊</div>
+                        <h3>Data Analytics</h3>
+                        <p class="skill-detail">using Excel & Power BI</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🗄️</div>
+                        <h3>Database</h3>
+                        <p class="skill-detail">SQL & Power Query</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <p>Interested in working together or have a question?</p>
+                    <button id="contact-btn" class="btn primary-btn pulse-anim">Say Hello 👋</button>
+                    <div id="contact-message" class="hidden message-box">
+                        <p>Thanks for reaching out! You can contact me at <strong>shahzad.ali@example.com</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Shahzad Ali. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
